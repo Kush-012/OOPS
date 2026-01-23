@@ -1,0 +1,7 @@
+Call by Value	
+Copy is passed
+Original not changed	
+
+Call by Reference
+Address is passed
+Original changes
