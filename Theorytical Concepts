@@ -1,0 +1,54 @@
+final keyword:
+Used to restrict modification final variables can’t change, final methods can’t be overridden, and final classes can’t be inherited.
+
+super keyword:
+Refers to the immediate parent class object and is used to access parent variables/methods or call the parent constructor.
+
+static:
+static means the member belongs to the class, not to objects.
+
+Method Overloading
+Method overloading means having multiple methods with the same name in the same class but with different parameter lists (number, type, or order of parameters).
+It is a compile-time polymorphism, and the method call is resolved at compile time.
+
+Method Overriding
+Method overriding means a child class provides its own implementation of a method already defined in the parent class with the same method signature.
+It is a runtime polymorphism, and the method call is resolved at runtime based on the object.
+
+Constructor:
+Constructors are special class members which are called by the compiler every time an object of that class is instantiated.
+There are 3 types of constructors:
+1. Default constructors
+2. Parameterized constructors
+3. Copy constructors
+
+Object:
+Object is an instance of a Class.
+
+Class:
+a class is container for methods and variables.
+
+4 pillars of OOPS:
+-Inheritance
+-Polymorphism
+-Abstraction
+-Encapsulation
+
+Inheritance:
+It allow child class to acquire properties from parent class.
+Types:
+1. Single Inheritance
+2. Multiple Inheritance
+3. Multilevel Inheritance
+4. Hierarchical Inheritance.
+5. Hybrid Inheritance.
+
+Encapsulation:
+Encapsulation is the mechanism of binding data (variables) and methods into a single unit called a class and restricting direct access to the data using access modifiers.
+It improves data security and prevents unauthorized modification.
+
+Abstraction:
+Abstraction is the process of hiding implementation details and exposing only the essential features of an object to the user.
+It helps in reducing complexity and improving system design.
+Done by abstract class.
+
