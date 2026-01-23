@@ -1,0 +1,28 @@
+Abstraction hides logic, Encapsulation protects data.
+
+Example:
+abstract class Bank {          // Abstraction
+    abstract void withdraw();
+}
+
+class Account extends Bank {
+    private int balance = 5000;   // Encapsulation
+
+    public int getBalance() {
+        return balance;
+    }
+
+    public void withdraw() {
+        System.out.println("Money withdrawn");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Account a = new Account();
+        a.withdraw();                    // abstraction
+        System.out.println(a.getBalance()); // encapsulation
+    }
+}
+
+
