@@ -40,6 +40,7 @@ Types:
 Encapsulation:
 Encapsulation is the mechanism of binding data (variables) and methods into a single unit called a class and restricting direct access to the data using access modifiers.
 It improves data security and prevents unauthorized modification.
+Eg: a module A is encapsulated with x,y,z functions and B with p,q,r functions.
 
 Abstraction:
 Abstraction is the process of hiding implementation details and exposing only the essential features of an object to the user.
